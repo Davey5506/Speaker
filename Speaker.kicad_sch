@@ -1625,6 +1625,16 @@
 		)
 		(uuid "63f93e94-28f5-407c-a45c-6f3e4a34247e")
 	)
+	(text "NE5532 Power"
+		(exclude_from_sim no)
+		(at 138.176 83.566 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "b1517190-6e5d-4852-8d60-bbb6921ae70c")
+	)
 	(text "Pre-Amp"
 		(exclude_from_sim no)
 		(at 39.37 29.718 0)
@@ -1634,6 +1644,18 @@
 			)
 		)
 		(uuid "fff5af0f-6b6b-49ba-b985-67a2351417f5")
+	)
+	(junction
+		(at 133.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128d3449-26c7-45b4-b1f8-361cb6a0cfd2")
+	)
+	(junction
+		(at 151.13 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17139603-d5a1-4978-8cbc-dd7eeb73fe26")
 	)
 	(junction
 		(at 224.79 48.26)
@@ -1658,6 +1680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44eefd7c-a4d6-4b19-ba02-ded33a4ed2db")
+	)
+	(junction
+		(at 151.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2c83f2-37ae-4981-b531-5a585b7136a7")
 	)
 	(junction
 		(at 114.3 50.8)
@@ -1688,6 +1716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e6af4ae-eca8-4a31-b973-d64c85ba2695")
+	)
+	(junction
+		(at 133.35 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba134415-442d-40c2-9156-98b4ab77d873")
 	)
 	(junction
 		(at 77.47 48.26)
@@ -1741,6 +1775,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 105.41) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0646681c-4eba-470c-97d8-68afee315847")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a7b3ea-c379-4fe3-95ec-ba5ceb54e739")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 54.61 48.26)
 		)
 		(stroke
@@ -1758,6 +1812,16 @@
 			(type default)
 		)
 		(uuid "0e9597ed-ee94-4fa3-952d-a8f6198db18f")
+	)
+	(wire
+		(pts
+			(xy 151.13 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103e703e-a47d-4ef2-9599-e4f41fbc9a14")
 	)
 	(wire
 		(pts
@@ -1871,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 115.57) (xy 151.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd8d501-a89d-481b-9dd0-125b7d411660")
+	)
+	(wire
+		(pts
 			(xy 36.83 58.42) (xy 43.18 58.42)
 		)
 		(stroke
@@ -1961,6 +2035,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4133bd-98cc-41d8-a283-807d3fa0700c")
+	)
+	(wire
+		(pts
 			(xy 104.14 50.8) (xy 105.41 50.8)
 		)
 		(stroke
@@ -1968,6 +2052,16 @@
 			(type default)
 		)
 		(uuid "6d7a3345-89bc-4580-874e-d1c58f9d02fa")
+	)
+	(wire
+		(pts
+			(xy 151.13 115.57) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eaa738e-8bb5-4af1-b3ed-5bd7d3708585")
 	)
 	(wire
 		(pts
@@ -2038,6 +2132,26 @@
 			(type default)
 		)
 		(uuid "7e5fb493-35be-47b3-b86c-c0e281ede119")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80249267-e344-431f-9655-43860ed7d3ba")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e54b58-2a55-4c03-92a9-c1be519d94c0")
 	)
 	(wire
 		(pts
@@ -2171,6 +2285,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee93a1b-6ee8-4471-bf2a-081b941f9284")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4db98d-629a-46c9-bcee-87ea23710416")
+	)
+	(wire
+		(pts
 			(xy 105.41 50.8) (xy 105.41 53.34)
 		)
 		(stroke
@@ -2208,6 +2342,26 @@
 			(type default)
 		)
 		(uuid "d35fa70d-2d6f-4892-8c2a-0cd61a9c2223")
+	)
+	(wire
+		(pts
+			(xy 133.35 115.57) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fd720c-20c2-4d52-885e-94effd41ba23")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63899ed-0d12-4bdb-abb8-7da9b7715bf9")
 	)
 	(wire
 		(pts
@@ -2558,6 +2712,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0daeeaa1-1507-4b53-b9bb-d950011fae50")
+		(property "Reference" "C12"
+			(at 142.24 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 142.24 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "210bd266-8aac-4df3-8a70-35c296ef5b1e")
+		)
+		(pin "2"
+			(uuid "5a0ae11a-7988-4eb5-abd7-d2994e20f1f8")
+		)
+		(instances
+			(project "Speaker"
+				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 53.34 90)
 		(unit 1)
@@ -2831,6 +3053,92 @@
 				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
 					(reference "J2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 142.24 92.71 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2651fdf6-3199-42c3-9bf0-674be69ebcbe")
+		(property "Reference" "U1"
+			(at 142.24 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 142.24 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_Socket"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "07a3fee1-8add-4eb4-b604-1061eeca3db7")
+		)
+		(pin "6"
+			(uuid "13f9dce9-b35f-4351-a698-3930e3040785")
+		)
+		(pin "3"
+			(uuid "dad04757-ccb3-42d0-a74a-ab3ab383433d")
+		)
+		(pin "4"
+			(uuid "3b15a821-0e9c-4687-91ba-378aabd61587")
+		)
+		(pin "7"
+			(uuid "8bebf1d5-8efd-4581-a9c6-07a600fd0d88")
+		)
+		(pin "8"
+			(uuid "f5779b7b-e2a2-4214-af96-ad92fb03cd60")
+		)
+		(pin "1"
+			(uuid "e8fd278a-c8a2-4b77-9cad-d25d1673f333")
+		)
+		(pin "2"
+			(uuid "0d1199c1-dabf-49a2-b941-6f04d8c427b5")
+		)
+		(instances
+			(project "Speaker"
+				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -3296,6 +3604,74 @@
 			(project "Speaker"
 				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b531d2-a603-45a0-b426-6a85db2c6f4f")
+		(property "Reference" "C11"
+			(at 142.2463 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 142.2463 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "111e0869-59a2-4526-a8a4-31af6909e415")
+		)
+		(pin "1"
+			(uuid "ee7e175c-72cb-4196-960e-8fb0be64565f")
+		)
+		(instances
+			(project "Speaker"
+				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3832,6 +4208,72 @@
 			(project "Speaker"
 				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 125.73 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cbeb187-22ce-4746-bf4e-93992a7aeb9c")
+		(property "Reference" "#PWR010"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6f9dd12-f39f-4c03-bd7e-a1ed3050884c")
+		)
+		(instances
+			(project "Speaker"
+				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4598,6 +5040,72 @@
 			(project ""
 				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a48ddd30-70e0-483c-94d4-b2f7e23e2ab3")
+		(property "Reference" "#PWR013"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4763ad9-f669-4660-92bf-d2d68a6de09d")
+		)
+		(instances
+			(project "Speaker"
+				(path "/974d46e1-0312-4cb4-ab58-89172b9ecfd3"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
